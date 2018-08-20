@@ -6,7 +6,7 @@ import os
 import sys
 import yaml
 
-from rosinstall_generator.generator import ARG_ALL_PACKAGES, ARG_CURRENT_ENVIRONMENT, generate_rosinstall, sort_rosinstall
+from .generator import ARG_ALL_PACKAGES, ARG_CURRENT_ENVIRONMENT, generate_rosinstall, sort_rosinstall
 
 
 def _existing_directory(path):
